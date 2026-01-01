@@ -49,7 +49,7 @@ projet-nlp/
 
 ## 📊 Méthodologie en 5 Phases
 
-### **Phase 1 : Données (2-3 jours)**
+### **Phase 1 : Données**
 1. Collecter des datasets français (DEFT, Allocine, GoEmotions traduit)
 2. Nettoyer les textes (URLs, mentions) **MAIS garder emojis et ponctuation !**
 3. Séparer : 70% train / 15% validation / 15% test
