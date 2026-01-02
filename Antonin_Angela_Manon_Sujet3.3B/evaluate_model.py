@@ -37,7 +37,7 @@ def load_model(checkpoint_path: str, device: str):
         Modèle chargé
     """
     print(f"📥 Chargement du modèle depuis {checkpoint_path}...")
-    checkpoint = torch.load(checkpoint_path, map_location=device)
+    checkpoint = torch.load(checkpoint_path, map_location=device, weights_only=False)
     
     model_config = checkpoint['model_config']
     model = CamemBERTMultitask(model_config)
